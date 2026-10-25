@@ -15,6 +15,9 @@ class Frame {
     public Frame(Material material) {
         this.material = material;
     }
+    public void setMaterial(Material material) {
+        this.material = material;
+    }
     public Material getMaterial() {
         return material;
     }

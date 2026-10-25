@@ -19,6 +19,10 @@ public class FuelTank {
         this.currentLevel = 0.0;
     }
 
+    public void setCapacity(double capacity) {
+        this.capacity = capacity;
+    }
+
     public double getCapacity() {
         return capacity;
     }

@@ -26,4 +26,7 @@ class Wheel {
     public void setSize(double size) {
         this.size = size;
     }
+    public void setTire(Tire tire) {
+        this.tire = tire;
+    }
 }

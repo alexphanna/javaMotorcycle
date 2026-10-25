@@ -26,4 +26,12 @@ public class Tire {
     public double getTreadDepth() {
         return treadDepth;
     }
+
+    public void setPressure(double pressure) {
+        this.pressure = pressure;
+    }
+
+    public void setTreadDepth(double treadDepth) {
+        this.treadDepth = treadDepth;
+    }
 }
